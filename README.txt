@@ -1,17 +1,14 @@
-MBI 360° Evaluación - Streamlit App
+MBI360 APP
 
-Este proyecto es una aplicación en Streamlit que permite a los usuarios:
-- Ingresar sus datos personales.
-- Seleccionar módulos de evaluación.
-- Completar formularios de evaluación.
-- Exportar resultados en CSV y PDF.
-- Enviar un resumen por WhatsApp.
-- Guardar automáticamente resultados en Google Sheets.
+Este proyecto es una aplicación Streamlit que permite a los usuarios completar un formulario de evaluación personalizado (MBI360°).
+
+Contenido del proyecto:
+- formulario_usuario.py: archivo principal de la aplicación.
+- README.txt: instrucciones generales.
 
 Requisitos:
-- Python 3.9 o superior
-- streamlit, pandas, fpdf, gspread, oauth2client
-- Archivo de credenciales 'credenciales_google.json' (no incluido)
+- Python 3.8+
+- Librerías: streamlit, pandas, fpdf, gspread, oauth2client
 
-Ejecutar con:
+Para ejecutar:
 streamlit run formulario_usuario.py
