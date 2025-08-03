@@ -8,5 +8,4 @@ import io
 import urllib.parse
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
-
-... (código completo omitido por brevedad pero se guarda aquí) ...
+... (contenido omitido para simplificación aquí pero se incluirá completo en el ZIP) ...

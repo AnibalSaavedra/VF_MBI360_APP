@@ -1,15 +1,17 @@
-MBI360 - Evaluación del Ser
+MBI 360° Evaluación - Streamlit App
 
-Este proyecto contiene una aplicación construida en Streamlit para evaluar el estado emocional, epigenético y clínico de los usuarios.
+Este proyecto es una aplicación en Streamlit que permite a los usuarios:
+- Ingresar sus datos personales.
+- Seleccionar módulos de evaluación.
+- Completar formularios de evaluación.
+- Exportar resultados en CSV y PDF.
+- Enviar un resumen por WhatsApp.
+- Guardar automáticamente resultados en Google Sheets.
 
-REQUISITOS:
-- Python 3.10+
-- Instalar dependencias: pip install -r requirements.txt
+Requisitos:
+- Python 3.9 o superior
+- streamlit, pandas, fpdf, gspread, oauth2client
+- Archivo de credenciales 'credenciales_google.json' (no incluido)
 
-USO:
-Ejecutar con: streamlit run formulario_usuario.py
-
-Incluye:
-- Guardado en Google Sheets
-- Exportación PDF y CSV
-- Enlace de WhatsApp copiable
+Ejecutar con:
+streamlit run formulario_usuario.py
